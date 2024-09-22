@@ -15,7 +15,7 @@
     "lang_selection": {
         "message": {
             "type":"text",
-            "text":"Namaste 🙏 \nWelcome to e-Jaadui Pitara \n(Powered by Bhashini)\n\nPlease enter the number to select your language from the below list"
+            "text":"Namaste 🙏 \nWelcome to IncluEd )\n\nPlease enter the number to select your language from the below list"
         }
     },
     "bot_selection": {
@@ -24,56 +24,32 @@
             "msgid": "bot",
             "content": {
                 "type": "text",
-                "header": "e-Jaadui Pitara",
-                "text": "I am here to help you with amazing stories and activities that you can engage your children with!\r\n\r\n- Please select Story Sakhi for creating your own story\r\n- Please select Parent Tara for getting suggestions of activities that you can engage with your children at home\r\n- Please select Teacher Tara for getting suggestions of activities that you can engage with your children at school\n\nDISCLAIMER:\nThe bots use Generative AI technology which may not be 100% accurate. Hence the responses given by the bots may have mistakes in their content and language. The responses are merely suggestive and must be used with caution determining its suitability and relevance to you and your context. By proceeding, you completely understand and accept to this.",
+                "header": "IncluEd",
+                "text": "Need tips on understanding disabilities, managing behaviour, or making learning more inclusive? Just ask! I'll share quick and easy advice to support every student. Let's make teaching a bit easier together!\n\nDISCLAIMER:\nThe bots use Generative AI technology which may not be 100% accurate. Hence the responses given by the bots may have mistakes in their content and language. The responses are merely suggestive and must be used with caution determining its suitability and relevance to you and your context. By proceeding, you completely understand and accept to this.",
                 "caption": "Please select below option to proceed"
             },
             "options": [
+
                 {
                     "type": "text",
                     "id": "bot",
-                    "title": "Story Sakhi",
-                    "postbackText": "bot__bot_1"
-                },
-                {
-                    "type": "text",
-                    "id": "bot",
-                    "title": "Parent Tara",
+                    "title": "IncluEd AI",
                     "postbackText": "bot__bot_2"
-                },
-                {
-                    "type": "text",
-                    "id": "bot",
-                    "title": "Teacher Tara",
-                    "postbackText": "bot__bot_3"
                 }
+
             ]
         }
     },
-    "bot_1": {
-        "Welcome": {
-            "message": {
-                "type": "text",
-                "text": "Wecome to Katha Sakhi!\nI can create a new story about whatever you ask for.\n\nFor example you can ask:\n- Tell a story about a child prodigy\n- Tell a story about a girl who loves her mom\n- Tell a story about a Monkey and a Frog\n\nAsk me what story do you want. You can type or speak."
-            }
-        }
-    },
+
     "bot_2": {
         "Welcome": {
             "message": {
                 "type": "text",
-                "text": "Wecome to Parent Tara! \r\nI can suggest you activities that you can do with your children at home. It can also suggest how to handle certain situations with your child.\r\n\r\nHere are few examples of what you can ask:\r\n\r\n- My child gets irritated easily. What should I do?\r\n- What activity can I do with my child using vegetables in my kitchen ?\r\n- Suggest how I can make my child interested in household activities\r\n- My child is not physically active. He only plays game on mobile\r\n\r\nAsk me about anything that you want me to suggest. You can type or speak."
+                "text": "Wecome to IncluEd AI! \r\n Need tips on understanding disabilities, managing behaviour, or making learning more inclusive? Just ask! I'll share quick and easy advice to support every student. Let's make teaching a bit easier together!. You can type or speak."
             }
         }
     },
-    "bot_3": {
-        "Welcome": {
-            "message": {
-                "type": "text",
-                "text": "Wecome to Teacher Tara! \nI can suggest you activities that you can do with your students (of age 3 to 8 years) at schools. \nI can also answer your questions about the play based learning suggested in the new NCF for Foundational Stage. \nHere are few examples of what you can ask. \n\nExamples: \n- What activity can I do with students to teach sorting or counting numbers \n- How can I conduct my class with children with special needs \n- What can I do to engage a child who is always distracted. \n\nI can answer your questions about the new NCF \nAsk me about anything that you want. You can type or speak."
-            }
-        }
-    },
+
     "loading_message": {
         "message": {
             "type": "text",
