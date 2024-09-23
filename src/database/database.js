@@ -1,4 +1,6 @@
 const session = require('express-session');
+require('dotenv').config();
+
 // const pgSession = require('connect-pg-simple')(session);
 var SequelizeStore = require("connect-session-sequelize")(session.Store);
 // const { Client } = require('pg');
@@ -7,7 +9,10 @@ const { Sequelize } = require('sequelize');
 const { InBoundGupshup } = require('../gupshup/InBound');
 const POSTGRES_URL = process.env.POSTGRES_URL;
 const oneDay = 1000 * 60 * 60 * 24;
-const sequelize = new Sequelize(POSTGRES_URL);
+const sequelize = new Sequelize(POSTGRES_URL, {
+  dialect: 'postgres',  // Specify that you're using PostgreSQL
+});
+
 const mobileMult = 2013;
 var sampleMobile = "910000000000";
 var sampleUserName= "ejpu";// ejp user

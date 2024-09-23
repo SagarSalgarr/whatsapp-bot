@@ -14,9 +14,7 @@ const WA_PROVIDER_NUMBER = process.env.WA_PROVIDER_NUMBER;
 const WA_PROVIDER_APPNAME = process.env.WA_PROVIDER_APPNAME;
 
 const contextMap = {
-  'bot_1': null,
-  'bot_2': 'parent',
-  'bot_3': 'teacher'
+  'bot_2': 'inclued_teacher',
 };
 /**
  * First message to the user
