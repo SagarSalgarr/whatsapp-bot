@@ -51,12 +51,6 @@
                     "id": "#",
                     "title": "ഭാഷ മാറ്റുക",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "ഓപ്ഷൻ മാറ്റുക",
-                    "postbackText": "*"
                 }
             ]
         }

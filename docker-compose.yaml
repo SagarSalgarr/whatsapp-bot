@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3010:3010"
+    environment:
+      # Set all necessary environment variables for the app
+
+      - CHAR_LIMIT=${CHAR_LIMIT}
+      - WA_PROVIDER_TOKEN=${WA_PROVIDER_TOKEN}
+      - TELEMETRY_SERVICE_URL=${TELEMETRY_SERVICE_URL}
+      - API_TOKEN=${}
+      - APP_ENV=
+      - APP_NAME=
+      # Set the PostgreSQL URL to connect to the postgres service
+      - POSTGRES_URL=postgres://newuser:postgres@postgres:5432/whatsapp_service
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:13
+    environment:
+      # Set the environment variables for PostgreSQL
+      POSTGRES_USER: newuser
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: whatsapp_service
+    ports:
+      - "5432:5432"

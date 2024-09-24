@@ -50,12 +50,6 @@
                     "id": "#",
                     "title": "भाषा बदलें",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "विकल्प बदलें",
-                    "postbackText": "*"
                 }
             ]
         },

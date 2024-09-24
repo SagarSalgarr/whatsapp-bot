@@ -51,12 +51,6 @@
                     "id": "#",
                     "title": "ਭਾਸ਼ਾ ਬਦਲੋ",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "ਵਿਕਲਪ ਬਦਲੋ",
-                    "postbackText": "*"
                 }
             ]
         }

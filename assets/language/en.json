@@ -84,12 +84,6 @@
                     "id": "#",
                     "title": "Change Langauage",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "Change Option",
-                    "postbackText": "*"
                 }
             ]
         }

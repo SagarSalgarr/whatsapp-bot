@@ -51,12 +51,6 @@
                     "id": "#",
                     "title": "ভাষা পরিবর্তন করুন",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "বিকল্প পরিবর্তন করুন",
-                    "postbackText": "*"
                 }
             ]
         }

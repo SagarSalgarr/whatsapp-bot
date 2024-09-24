@@ -51,12 +51,6 @@
                     "id": "#",
                     "title": "ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಿ",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "ಆಯ್ಕೆಯನ್ನು ಬದಲಾಯಿಸಿ",
-                    "postbackText": "*"
                 }
             ]
         }

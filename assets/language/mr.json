@@ -51,12 +51,6 @@
                     "id": "#",
                     "title": "भाषा बदला",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "पर्याय बदला",
-                    "postbackText": "*"
                 }
             ]
         }

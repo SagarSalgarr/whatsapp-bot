@@ -51,12 +51,6 @@
                     "id": "#",
                     "title": "ભાષા બદલો",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "વિકલ્પ બદલો",
-                    "postbackText": "*"
                 }
             ]
         }

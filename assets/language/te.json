@@ -51,12 +51,6 @@
                     "id": "#",
                     "title": "భాష మార్చు",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "ఎంపికను మార్చండి",
-                    "postbackText": "*"
                 }
             ]
         }

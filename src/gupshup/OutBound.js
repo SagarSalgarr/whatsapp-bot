@@ -1,20 +1,20 @@
 class OutBound {
 
   body = {
-      "app": "SolsarcIncluEd",
+      "app": "PSTBot",
       "timestamp": new Date().getTime(),
       "version": 2,
       "type": "message",
       "payload": {
-        "id": "tqenuydwuihvxmjzrthqfo3rcwqmkcel",
-        "source": "919004998286",
+        "id": "wylghadtkggr3vcnlfej7frwuqlgtur1",
+        "source": "917350013702",
         "type": "text",
         "payload": { "text": "Hi" },
         "sender": {
-          "phone": "919004998286",
-          "name": "SolsarcIncluEd",
+          "phone": "917350013702",
+          "name": "Test Purpose",
           "country_code": "91",
-          "dial_code": "919004998286"
+          "dial_code": "917350013702"
         }
       }
     }

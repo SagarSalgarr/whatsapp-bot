@@ -51,12 +51,6 @@
                     "id": "#",
                     "title": "மொழியை மாற்றவும்",
                     "postbackText": "#"
-                },
-                {
-                    "type": "text",
-                    "id": "*",
-                    "title": "விருப்பத்தை மாற்று",
-                    "postbackText": "*"
                 }
             ]
         }
