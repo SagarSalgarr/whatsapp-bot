@@ -1,21 +1,11 @@
 {
     "languages": [
-        {"text": "English", "code": "en", "index": 1},
-        {"text": "हिंदी", "code": "hi", "index": 2}, 
-        {"text": "मराठी", "code": "mr", "index": 3},
-        {"text": "বাংলা", "code": "bn", "index": 4}, 
-        {"text": "ગુજરાતી", "code": "gu", "index": 5}, 
-        {"text": "ಕನ್ನಡ ", "code": "kn", "index": 6},
-        {"text": "తెలుగు", "code": "te", "index": 7},
-        {"text": "தமிழ்", "code": "ta", "index": 8},
-        {"text": "മലയാളം", "code": "ml", "index": 9},
-        {"text": "ଓଡିଆ", "code": "or", "index": 10},
-        {"text": "অসমীয়া", "code": "as", "index": 11}
+        {"text": "English", "code": "en", "index": 1}
       ],
     "lang_selection": {
         "message": {
             "type":"text",
-            "text":"Namaste 🙏 \nWelcome to IncluEd )\n\nPlease enter the number to select your language from the below list"
+            "text":"Hi, it's *IncluEd* here Need tips on *understanding disabilities, managing behaviour, or making learning more inclusive*? Just ask! I'll share *quick* and *easy advice to support every student*. Let's make teaching a bit easier together!\n\nPlease enter the number to select your language from the below list"
         }
     },
     "bot_selection": {
@@ -25,7 +15,7 @@
             "content": {
                 "type": "text",
                 "header": "IncluEd",
-                "text": "Need tips on understanding disabilities, managing behaviour, or making learning more inclusive? Just ask! I'll share quick and easy advice to support every student. Let's make teaching a bit easier together!\n\nDISCLAIMER:\nThe bots use Generative AI technology which may not be 100% accurate. Hence the responses given by the bots may have mistakes in their content and language. The responses are merely suggestive and must be used with caution determining its suitability and relevance to you and your context. By proceeding, you completely understand and accept to this.",
+                "text": "\n\nThe bots use Generative AI technology which may not be 100% accurate. Hence the responses given by the bots may have mistakes in their content and language. The responses are merely suggestive and must be used with caution determining its suitability and relevance to you and your context. By proceeding, you completely understand and accept this.Want to explore more together?Click *yes* to keep the conversation going.",
                 "caption": "Please select below option to proceed"
             },
             "options": [
@@ -33,7 +23,7 @@
                 {
                     "type": "text",
                     "id": "bot",
-                    "title": "IncluEd AI",
+                    "title": "YES",
                     "postbackText": "bot__bot_2"
                 }
 
@@ -45,7 +35,7 @@
         "Welcome": {
             "message": {
                 "type": "text",
-                "text": "Wecome to IncluEd AI! \r\n Need tips on understanding disabilities, managing behaviour, or making learning more inclusive? Just ask! I'll share quick and easy advice to support every student. Let's make teaching a bit easier together!. You can type or speak."
+                "text": "You can type or speak to start."
             }
         }
     },
